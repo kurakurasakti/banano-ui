@@ -1,0 +1,1 @@
+export const urlApi = 'http://banano.localhost:3030/api/'
