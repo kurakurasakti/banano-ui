@@ -22,7 +22,7 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'http://banano.localhost:3030/api'
+            apiUrl: 'http://banano.localhost:2001/api'
         })
     }
 }

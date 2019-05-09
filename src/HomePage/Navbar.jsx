@@ -12,6 +12,10 @@ class Header extends  React.Component {
     };
   }
 
+  componentDidMount(){
+
+  }
+
   toggleNavbar() {
     this.setState({
       collapsed: !this.state.collapsed
@@ -36,6 +40,7 @@ class Header extends  React.Component {
               <NavItem>
                 <NavLink href="/components/">Bottom</NavLink>
               </NavItem>
+
               <NavItem>
                 <NavLink to="/login">Login</NavLink>
               </NavItem>
@@ -49,5 +54,7 @@ class Header extends  React.Component {
 };
 // const connectedNavbar = connect(Header);
 // export { connectedNavbar as Navbar };
+
+
 
 export default Header
