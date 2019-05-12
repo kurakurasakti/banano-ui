@@ -33,6 +33,7 @@ class App extends React.Component {
                             {/* <PrivateRoute exact path="/" component={HomePage} /> */}
                             <Route path='/' component={HomePage} exact />
                             <Route path="/login" component={LoginPage} exact/>
+                            {/* <Route path="/register" component={LoginPage} exact/> */}
                             
                         </div>
                     </Switch>

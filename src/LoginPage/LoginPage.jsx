@@ -35,11 +35,10 @@ class LoginPage extends React.Component {
         const { dispatch } = this.props;
         alert(this.refs.username.value)
         if (username && password) {
-            alert('ayam')
             dispatch(userActions.login(username, password));
         }
         else{
-            alert('tikus')
+            alert('Harap isi username dan password yg bener!')
         }
     }
 

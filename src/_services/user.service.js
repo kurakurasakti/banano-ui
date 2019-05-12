@@ -24,6 +24,7 @@ function login(username, password) {
     //     console.log(err)
     // });
 
+    // return fetch('http://banano.localhost:2001/api/auth/login`, requestOptions)
     return fetch(`${config.apiUrl}/auth/login`, requestOptions)
         .then(handleResponse)
         .then(user => {
